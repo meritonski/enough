@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="sv" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Enough — Support</title>
+  <meta name="description" content="Support för Enough. Kontakta oss, FAQ och hjälp för notiser, widgets och premium." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brandMark"></span><span class="brandText">Enough</span></a>
+    <nav class="nav">
+      <a class="navLink active" href="support.html" data-i18n="nav_support">Support</a>
+      <a class="navLink" href="privacy.html" data-i18n="nav_privacy">Integritet</a>
+      <a class="navLink" href="terms.html" data-i18n="nav_terms">Villkor</a>
+    </nav>
+    <div class="actions">
+      <button class="chip" type="button" data-action="toggle-lang"><span data-i18n="lang_label">SV</span></button>
+      <button class="chip" type="button" data-action="toggle-theme"><span data-i18n="theme_label">Mörkt</span></button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="pageHead glass">
+      <h1 data-i18n="support_title">Support</h1>
+      <p class="lead" data-i18n="support_lead">Vi hjälper dig snabbt. Här finns FAQ + kontakt.</p>
+
+      <div class="contactRow">
+        <a class="btn primary" href="mailto:support@dindomän.com?subject=Enough%20Support" data-i18n="support_cta_email">
+          Mejla support
+        </a>
+        <a class="btn secondary" href="mailto:support@dindomän.com?subject=Refund%20Request%20(Enough)" data-i18n="support_cta_refund">
+          Fråga om återbetalning
+        </a>
+      </div>
+
+      <p class="small muted" data-i18n="support_email_note">
+        Byt e-postadressen i filen support.html innan du publicerar.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="sectionHead">
+        <h2 data-i18n="support_faq_title">Vanliga frågor</h2>
+        <p data-i18n="support_faq_lead">Snabba svar på det vanligaste.</p>
+      </div>
+
+      <div class="accordion">
+        <details class="glass">
+          <summary data-i18n="support_q1">Notiser kommer inte</summary>
+          <div class="answer" data-i18n="support_a1">
+            Kontrollera i iOS-inställningar att notiser är aktiverade för Enough. Öppna appen och välj tider i Påminnelser.
+          </div>
+        </details>
+
+        <details class="glass">
+          <summary data-i18n="support_q2">Hur återställer jag köp?</summary>
+          <div class="answer" data-i18n="support_a2">
+            På paywall-sidan: tryck “Återställ”. Du måste vara inloggad med samma Apple-ID som köpet gjordes med.
+          </div>
+        </details>
+
+        <details class="glass">
+          <summary data-i18n="support_q3">Widgets uppdateras inte</summary>
+          <div class="answer" data-i18n="support_a3">
+            Prova att öppna appen en gång, byt affirmation och vänta någon minut. Du kan även ta bort och lägga till widgeten igen.
+          </div>
+        </details>
+
+        <details class="glass">
+          <summary data-i18n="support_q4">Hur säger jag upp abonnemang?</summary>
+          <div class="answer" data-i18n="support_a4">
+            Abonnemang hanteras via Apple. Gå till Inställningar → Apple-ID → Abonnemang och välj Enough.
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="tile glass">
+        <h2 data-i18n="support_contact_title">Kontakt</h2>
+        <p data-i18n="support_contact_body">
+          Skicka gärna med: iOS-version, modell, appversion och en skärmbild om det går.
+        </p>
+        <p class="muted small">
+          <span data-i18n="support_contact_sla">Svarstid:</span>
+          <strong data-i18n="support_contact_sla_value">inom 1–3 arbetsdagar</strong>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footerInner">
+      <div class="footerBrand"><span class="brandMark small"></span><span>Enough</span></div>
+      <div class="footerLinks">
+        <a href="privacy.html" data-i18n="nav_privacy">Integritet</a>
+        <a href="terms.html" data-i18n="nav_terms">Villkor</a>
+      </div>
+      <div class="footerMeta"><span class="muted" data-i18n="footer_note">© Enough. Alla rättigheter förbehållna.</span></div>
+    </div>
+  </footer>
+</body>
+</html>
