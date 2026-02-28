@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="sv" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Enough — Support, Privacy & Terms</title>
+  <meta name="description" content="Enough: Support, integritetspolicy och villkor. Kontakta oss, få hjälp och läs hur vi hanterar data." />
+  <meta name="theme-color" content="#0b0b10" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Enough — Support, Privacy & Terms" />
+  <meta property="og:description" content="Support, integritetspolicy och villkor för Enough." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.svg" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Enough home">
+      <span class="brandMark"></span>
+      <span class="brandText">Enough</span>
+    </a>
+
+    <nav class="nav">
+      <a class="navLink" href="support.html" data-i18n="nav_support">Support</a>
+      <a class="navLink" href="privacy.html" data-i18n="nav_privacy">Integritet</a>
+      <a class="navLink" href="terms.html" data-i18n="nav_terms">Villkor</a>
+    </nav>
+
+    <div class="actions">
+      <button class="chip" type="button" data-action="toggle-lang" aria-label="Change language">
+        <span data-i18n="lang_label">SV</span>
+      </button>
+      <button class="chip" type="button" data-action="toggle-theme" aria-label="Toggle theme">
+        <span data-i18n="theme_label">Mörkt</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="heroCard glass">
+        <p class="kicker" data-i18n="home_kicker">Officiell sida för</p>
+        <h1 data-i18n="home_title">Support, integritet & villkor</h1>
+        <p class="lead" data-i18n="home_lead">
+          Här hittar du hjälp, kontakt och policys som Apple kräver för appen Enough.
+        </p>
+
+        <div class="ctaRow">
+          <a class="btn primary" href="support.html" data-i18n="home_cta_primary">Få support</a>
+          <a class="btn secondary" href="privacy.html" data-i18n="home_cta_secondary">Läs integritet</a>
+        </div>
+
+        <div class="quickLinks">
+          <a class="cardLink" href="support.html">
+            <div class="cardIcon">✦</div>
+            <div>
+              <div class="cardTitle" data-i18n="home_card_support_title">Support</div>
+              <div class="cardDesc" data-i18n="home_card_support_desc">Vanliga frågor, kontakt, återställning.</div>
+            </div>
+          </a>
+
+          <a class="cardLink" href="privacy.html">
+            <div class="cardIcon">⛨</div>
+            <div>
+              <div class="cardTitle" data-i18n="home_card_privacy_title">Integritet</div>
+              <div class="cardDesc" data-i18n="home_card_privacy_desc">Hur data hanteras, spårning, lagring.</div>
+            </div>
+          </a>
+
+          <a class="cardLink" href="terms.html">
+            <div class="cardIcon">◎</div>
+            <div>
+              <div class="cardTitle" data-i18n="home_card_terms_title">Villkor</div>
+              <div class="cardDesc" data-i18n="home_card_terms_desc">Användarvillkor + Apple Standard EULA.</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="heroAside">
+        <div class="asideCard glass">
+          <h2 data-i18n="home_aside_title">Snabb info</h2>
+          <ul class="bullets">
+            <li><span class="dot"></span><span data-i18n="home_aside_point1">Supportmail & svarstid</span></li>
+            <li><span class="dot"></span><span data-i18n="home_aside_point2">Integritetspolicy enligt App Store-krav</span></li>
+            <li><span class="dot"></span><span data-i18n="home_aside_point3">Villkor inklusive Apple Standard EULA</span></li>
+          </ul>
+
+          <div class="mini">
+            <div class="miniLabel" data-i18n="home_aside_version_label">Dokument uppdaterade</div>
+            <div class="miniValue" id="docDate">2026-02-28</div>
+          </div>
+        </div>
+
+        <div class="asideCard subtle">
+          <p class="small" data-i18n="home_aside_note">
+            Tips: Lägg dessa länkar i App Store Connect under “App Privacy” och “Support URL”.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="sectionHead">
+        <h2 data-i18n="home_section_title">Det du behöver (Apple-klart)</h2>
+        <p data-i18n="home_section_lead">Tre sidor, tydliga länkar, enkel att hålla uppdaterad.</p>
+      </div>
+
+      <div class="grid3">
+        <div class="tile glass">
+          <h3 data-i18n="home_tile1_title">Support</h3>
+          <p data-i18n="home_tile1_body">Kontakt, FAQ, återställning av köp, widgets, notiser.</p>
+          <a class="inlineLink" href="support.html" data-i18n="home_tile_link">Öppna →</a>
+        </div>
+        <div class="tile glass">
+          <h3 data-i18n="home_tile2_title">Integritet</h3>
+          <p data-i18n="home_tile2_body">Vad som samlas in, vad som inte samlas in, lagring.</p>
+          <a class="inlineLink" href="privacy.html" data-i18n="home_tile_link">Öppna →</a>
+        </div>
+        <div class="tile glass">
+          <h3 data-i18n="home_tile3_title">Villkor</h3>
+          <p data-i18n="home_tile3_body">Användning, ansvar, abonnemang, Apple EULA-länk.</p>
+          <a class="inlineLink" href="terms.html" data-i18n="home_tile_link">Öppna →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footerInner">
+      <div class="footerBrand">
+        <span class="brandMark small"></span>
+        <span>Enough</span>
+      </div>
+
+      <div class="footerLinks">
+        <a href="support.html" data-i18n="nav_support">Support</a>
+        <a href="privacy.html" data-i18n="nav_privacy">Integritet</a>
+        <a href="terms.html" data-i18n="nav_terms">Villkor</a>
+      </div>
+
+      <div class="footerMeta">
+        <span class="muted" data-i18n="footer_note">© Enough. Alla rättigheter förbehållna.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
